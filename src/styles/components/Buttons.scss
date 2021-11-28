@@ -9,3 +9,15 @@
   font-weight: bold;
   height: 50px;
 }
+
+.secondary-button {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid var(--blue-ocean);
+  color: var(--blue-ocean);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 50px;
+}

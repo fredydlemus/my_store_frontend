@@ -1,0 +1,26 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    h1 {
+      font-size: 60px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    h5 {
+      font-size: 25px;
+      color: var(--blue-ocean);
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Login.scss';
 import '../styles/components/Form.scss';
 import '../styles/components/Logo.scss';
+import '../styles/components/Email.scss';
 
 const RecoveryPassword = () => {
     return (
@@ -11,12 +12,12 @@ const RecoveryPassword = () => {
                 <h1 className='title'>Email has been sent!</h1>
                 <p className='subtitle'>Please check your inbox for instructions on how you can to reset your password</p>
                 <div className='email-image'>
-                    <img src="/" alt="emial" />
+                    <img src="/" alt="email" />
                 </div>
 
                 <button className='primary-button login-button'>Login</button>
                 <p className='resend'>
-                    <span>Didn't received the email?</span>
+                    <span>Didn't received the email? </span>
                     <a href="/">Resend</a>
                 </p>
             </div>
