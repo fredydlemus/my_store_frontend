@@ -1,0 +1,20 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --very-light-pink: #8f8d8d;
+  --text-input-field: #f7f7f7;
+  --blue-ocean: #0c038d;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
