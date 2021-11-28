@@ -1,14 +1,17 @@
 import React from "react";
 import "../styles/Header.scss";
 import "../styles/components/Logo.scss";
+import { AiOutlineShop, AiOutlineShoppingCart } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <img src="/" alt="menu" className="menu" />
+        <GiHamburgerMenu color="black" size="30px" className="menu" />
+
         <div className="navbar-left">
-          <img src="/" alt="logo" className="logo-header" />
+          <AiOutlineShop className="logo-header" color="white" size="44px" />
           <ul>
             <li>
               <a href="/">All</a>
@@ -34,7 +37,7 @@ const Header = () => {
           <ul>
             <li className="navbar-email">fredyflemus@gmail.com</li>
             <li className="navbar-shopping-cart">
-              <img src="/" alt="shopping cart" />
+              <AiOutlineShoppingCart color="white" size="30px" />
               <div>2</div>
             </li>
           </ul>

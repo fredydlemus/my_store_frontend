@@ -3,12 +3,13 @@ import "../styles/Login.scss";
 import "../styles/components/Form.scss";
 import "../styles/components/Buttons.scss";
 import "../styles/components/Logo.scss";
+import { AiOutlineShop } from "react-icons/ai";
 
 const NewPassword = () => {
   return (
     <div className="login">
       <div className="form-container">
-        <img src="/" alt="logo" className="logo" />
+        <AiOutlineShop className="logo" color="black" size="75px" />
         <h1 className="title">Create a new password</h1>
         <p className="subtitle">Enter a new password for your account</p>
         <form action="/" className="form">
