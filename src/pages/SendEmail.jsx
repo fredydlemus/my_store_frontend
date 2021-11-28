@@ -1,13 +1,13 @@
 import React from "react";
-import "../styles/Login.scss";
+import "../styles/PageForm.scss";
 import "../styles/components/Form.scss";
 import "../styles/components/Logo.scss";
 import "../styles/components/Email.scss";
 import { AiOutlineShop, AiOutlineMail } from "react-icons/ai";
 
-const RecoveryPassword = () => {
+const SendEmail = () => {
   return (
-    <div className="login">
+    <div className="page-form">
       <div className="form-container">
         <AiOutlineShop className="logo" color="black" size="75px" />
         <h1 className="title">Email has been sent!</h1>
@@ -29,4 +29,4 @@ const RecoveryPassword = () => {
   );
 };
 
-export default RecoveryPassword;
+export default SendEmail;

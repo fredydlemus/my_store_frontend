@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/components/Buttons.scss";
 import "../styles/components/Form.scss";
-import "../styles/Login.scss";
+import "../styles/PageForm.scss";
 
 const CreateAccount = () => {
   return (
-    <div className="login">
+    <div className="page-form">
       <div className="form-container">
         <h1 className="title">My account</h1>
         <form action="/" className="form">
