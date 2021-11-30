@@ -3,8 +3,15 @@ import "../styles/Header.scss";
 import "../styles/components/Logo.scss";
 import { AiOutlineShop, AiOutlineShoppingCart } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Menu from "./Menu";
 
 const Header = () => {
+  const [toggle, setToggle] = React.useState(false);
+
+  const handleToggle = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <header className="header">
       <nav className="navbar">
@@ -35,13 +42,16 @@ const Header = () => {
         </div>
         <div className="navbar-rigth">
           <ul>
-            <li className="navbar-email">fredyflemus@gmail.com</li>
+            <li className="navbar-email" onClick={handleToggle}>
+              fredyflemus@gmail.com
+            </li>
             <li className="navbar-shopping-cart">
               <AiOutlineShoppingCart color="white" size="30px" />
               <div>2</div>
             </li>
           </ul>
         </div>
+        {toggle && <Menu />}
       </nav>
     </header>
   );

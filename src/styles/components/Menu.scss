@@ -1,0 +1,31 @@
+.Menu {
+  width: 175px;
+  height: auto;
+  border-radius: 0 0 6px 6px;
+  padding: 20px 20px 0 20px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  background-color: var(--black);
+  ul {
+    list-style: none;
+    li {
+      text-align: end;
+      a {
+        color: white;
+        margin-bottom: 20px;
+        display: inline-block;
+        text-decoration: none;
+      }
+    }
+    li:nth-child(1),
+    li:nth-child(2) {
+      font-weight: bold;
+    }
+    li:last-child {
+      a {
+        font-size: var(--sm);
+      }
+    }
+  }
+}
